@@ -1,0 +1,3 @@
+CREATE DATABASE mydatabase_a20;
+
+DROP DATABASE IF EXISTS mydatabase_a20;

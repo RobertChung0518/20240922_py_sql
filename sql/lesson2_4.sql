@@ -21,3 +21,15 @@ CREATE TABLE IF NOT EXISTS weather (
 	low real,
 	status VARCHAR(20)
 );
+
+/*車站代號,車站中文名稱,車站英文名稱*/
+
+CREATE TABLE IF NOT EXISTS weather (
+    id SERIAL PRIMARY KEY,
+	city VARCHAR(20) NOT NULL,
+    startDate timestamp,
+	endDate timestamp,
+	hight real,
+	low real,
+	status VARCHAR(20)
+);

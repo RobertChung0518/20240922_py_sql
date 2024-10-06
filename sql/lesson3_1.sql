@@ -91,3 +91,13 @@ ORDER BY e_name;
 SELECT id as 序號_id,code as 代碼_code, name as 車站名稱_name, e_name as 英文名稱_e_name
 FROM taipeistation
 ORDER BY e_name DESC;
+
+SELECT id as 序號_id,code as 代碼_code, name as 車站名稱_name, e_name as 英文名稱_e_name
+FROM taipeistation
+WHERE id BETWEEN 17 AND 33
+ORDER BY e_name;
+
+SELECT id as 序號_id,code as 代碼_code, name as 車站名稱_name, e_name as 英文名稱_e_name
+FROM taipeistation
+ORDER BY e_name
+limit 10;

@@ -28,3 +28,4 @@ INSERT INTO student(name,major)
 VALUES('小a','生物'),('小b','歷史')
 RETURNING *;
 
+DROP TABLE IF EXISTS student;

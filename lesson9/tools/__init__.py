@@ -1,1 +1,1 @@
-from .__datasource__ import get_data
+from .__datasource__ import *

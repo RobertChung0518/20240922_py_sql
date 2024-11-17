@@ -1,6 +1,6 @@
 from dotenv import load_dotenv
 import streamlit as st
-from tools.datasource import get_data
+from tools import get_data
 load_dotenv()
 
 @st.dialog("目前發生問題,請稍後再試")

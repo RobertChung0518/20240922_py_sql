@@ -9,10 +9,11 @@ def alert():
         st.stop()
 
 with st.spinner('下載資料中...'):
-    get_data()
+    ubike = get_data()
 #下載成功時顯示
 #    st.success("下載完成")
 #    get_data()
 
-alert()
-st.write('顯示頁面')
+if ubike is None:
+    alert()
+st.write(ubike)

@@ -98,7 +98,7 @@ def get_sarea_from_database()->list[tuple]:
     conn = psycopg2.connect(host=os.environ['HOST'],database=os.environ['DATABASE'],user=os.environ['USER'],password=os.environ['PASSWORD'])
     with conn:
         with conn.cursor() as cursor:
-            sql = '''
+            sql = '''B
                 SELECT 行政區
                 FROM 站點資訊
                 GROUP BY 行政區;
